@@ -99,6 +99,14 @@ in your root directory. For example:
 
 [source,bash]
 ----
+Windows: 
+cmake -G "Visual Studio 15 2017 Win64" .
+msbuild hello_cmake.vcxproj
+
+Run the EXE
+Debug\hello_cmake.exe
+Hello CMake!
+
 A-hello-cmake$ cmake .
 -- The C compiler identification is GNU 4.8.4
 -- The CXX compiler identification is GNU 4.8.4
